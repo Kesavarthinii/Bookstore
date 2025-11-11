@@ -1,0 +1,10 @@
+# Ignore only heavy asset folders
+assets/biography/
+assets/fantasy/
+assets/mystery/
+assets/thriller/
+assets/self-help/
+assets/history/
+assets/horror/
+assets/romance/
+
