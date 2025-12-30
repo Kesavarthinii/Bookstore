@@ -49,13 +49,15 @@ XAMPP: Local development environment using Apache as the web server.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *How to Run Locally* (XAMPP)
+
 Download and Install XAMPP.
 
 Clone the Repository: Place the project folder inside your XAMPP's htdocs directory:
 
 Bash
 
-C:\xampp\htdocs\bookit
+C:\xampp\htdocs\bookstore
+
 Setup Database:
 
 Open phpMyAdmin (http://localhost/phpmyadmin).
@@ -66,7 +68,9 @@ Import the provided .sql file (look for it in the database/ folder of this repo)
 
 Configure Connection:
 
+
 Ensure your config.php (or equivalent file) has the correct credentials:
+
 
 PHP
 
