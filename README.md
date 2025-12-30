@@ -23,6 +23,7 @@ Bookit is a comprehensive web application designed for book enthusiasts to disco
 
 
 *Tech Stack*
+
 Frontend:
 
 HTML5: Structure of the library and user forms.
