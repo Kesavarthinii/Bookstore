@@ -1,7 +1,6 @@
 <?php
 session_start();
 include 'config.php';
-
 // Handle form submission
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $title = $_POST['title'];
