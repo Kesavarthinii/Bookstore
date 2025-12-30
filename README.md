@@ -22,6 +22,7 @@ Bookit is a comprehensive web application designed for book enthusiasts to disco
 5.*Personal Bookmarks* : Add books to your "Bookmarks" for future reading and manage them with ease.
 <img width="1864" height="774" alt="Screenshot 2025-12-30 171404" src="https://github.com/user-attachments/assets/0d1783dc-edce-4f12-8c31-7b8015bae0c6" />
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *Tech Stack*
 
@@ -44,6 +45,40 @@ MySQL: Storing user credentials, book metadata, reviews, and bookmark relations.
 Server Environment:
 
 XAMPP: Local development environment using Apache as the web server.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*How to Run Locally* (XAMPP)
+Download and Install XAMPP.
+
+Clone the Repository: Place the project folder inside your XAMPP's htdocs directory:
+
+Bash
+
+C:\xampp\htdocs\bookit
+Setup Database:
+
+Open phpMyAdmin (http://localhost/phpmyadmin).
+
+Create a new database named bookstore_db.
+
+Import the provided .sql file (look for it in the database/ folder of this repo).
+
+Configure Connection:
+
+Ensure your config.php (or equivalent file) has the correct credentials:
+
+PHP
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "bookstore_db";
+Launch:
+
+Start Apache and MySQL from the XAMPP Control Panel.
+
+Open your browser and go to http://localhost/bookit.
 
 
 
